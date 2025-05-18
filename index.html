@@ -3,17 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>عَمَل عشوائي</title>
+  <title>عمل هدية الإمام الجواد عليه السلام</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
       background: #f0f4f8;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
       padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #222;
+      margin-bottom: 1rem;
+      text-align: center;
     }
     .card {
       background: white;
@@ -29,6 +36,9 @@
       color: #333;
     }
     @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
       .action {
         font-size: 1.2rem;
       }
@@ -36,6 +46,8 @@
   </style>
 </head>
 <body>
+
+  <h1>عمل هدية الإمام الجواد عليه السلام</h1>
 
   <div class="card">
     <div class="action" id="randomAction">جارٍ التحميل...</div>
@@ -81,7 +93,7 @@
       "نشر وصية للسيد القائد دامت بركاته",
       "تفريج هم",
       "تسديد دين احد المؤمنين",
-      
+      "مساحمة في أحياء مولد المعصومة"
     ];
 
     function pickRandomAction() {
